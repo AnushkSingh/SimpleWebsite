@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Sites of India</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Heritage Sites of India</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="popular.html">Popular Destinations</a></li>
+                <li><a href="states.html">State-wise Tourism</a></li>
+                <li><a href="heritage.html">Heritage Sites</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Explore the Rich Heritage</h2>
+            <p>India is home to some of the world's most significant historical and cultural heritage sites. Many of these sites are UNESCO World Heritage Sites.</p>
+        </section>
+
+        <section class="gallery">
+            <h2>Famous Heritage Sites</h2>
+            <div class="image-grid">
+                <div>
+                    <img src="taj-mahal.jpeg" alt="Taj Mahal">
+                    <p><strong>Taj Mahal</strong> - Agra</p>
+                </div>
+                <div>
+                    <img src="qutub-minar.jpeg" alt="Qutub Minar">
+                    <p><strong>Qutub Minar</strong> - Delhi</p>
+                </div>
+                <div>
+                    <img src="ajanta-caves.jpeg" alt="Ajanta Caves">
+                    <p><strong>Ajanta Caves</strong> - Maharashtra</p>
+                </div>
+                <div>
+                    <img src="red-fort.jpeg" alt="Red Fort">
+                    <p><strong>Red Fort</strong> - Delhi</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Incredible India. Designed for Travel Enthusiasts.</p>
+    </footer>
+</body>
+</html>

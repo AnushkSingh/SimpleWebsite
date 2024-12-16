@@ -1,0 +1,135 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f4fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #5e35b1; /* Purple */
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d4c3ff; /* Light Purple */
+}
+
+/* Hero Banner */
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(94, 53, 177, 0.7); /* Purple with transparency */
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.hero-text h2 {
+    font-size: 2.2rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #e9e1f4; /* Light Purple Background */
+}
+
+.intro h2 {
+    color: #5e35b1;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Gallery Section */
+.gallery {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.gallery h2 {
+    color: #5e35b1;
+    margin-bottom: 1.5rem;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+.image-grid div {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.image-grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.image-grid p {
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #5e35b1;
+    color: #fff;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <style>
+        body {
+            background-image: url('myimage.jpeg');
+            background-size: cover;
+            color: blue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 50px;
+            color: #ffffff;
+            text-align: center; /* Center align the h1 */
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 30px;
+            color: #4B0082;
+            text-align: center; /* Center align the h2 */
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            width: 350px;
+            margin: 50px auto;
+            text-align: left;
+        }
+
+        label {
+            font-size: 18px;
+            margin-top: 10px;
+            color: #333;
+            display: block;
+        }
+
+        input[type="text"], input[type="password"] {
+            font-size: 16px;
+            padding: 10px;
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="radio"] {
+            width: auto;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        input[type="checkbox"] {
+            width: auto;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        input[type="reset"], input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4B0082;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        input[type="reset"]:hover, input[type="submit"]:hover {
+            background-color: #6A0DAD;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .form-group input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Registration Page</h1>
+
+    <form id="sampleform" method="post" action="">
+        <div class="form-group">
+            <label for="realname">First Name:</label>
+            <input type="text" name="realname" id="realname" required/><br/>
+        </div>
+
+        <div class="form-group">
+            <label for="surname">Last Name:</label>
+            <input type="text" name="surname" id="surname" required/><br/>
+        </div>
+
+        <div class="form-group">
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass" required/><br/>
+        </div>
+
+        <div class="form-group">
+            <label for="repass">Re-enter password:</label>
+            <input type="password" name="repass" id="repass" required/><br/>
+        </div>
+
+        <div class="form-group">
+            <label>SEX:</label><br/>
+            <input type="radio" name="sex" value="M" /> Male
+            <input type="radio" name="sex" value="F" /> Female <br/>
+        </div>
+
+        <h2>Additional Information</h2>
+
+        <div class="form-group">
+            <input type="checkbox" name="maillist" /> Put me on mail list <br/><br/>
+        </div>
+
+        <div class="form-group">
+            <input type="reset" value="Reset"/>
+            <input type="submit" value="Submit"/>
+        </div>
+    </form>
+
+</body>
+</html>
